@@ -1,0 +1,11 @@
+conda remove -n Diplomado --all -y
+
+conda clean --all -y
+
+conda create -n Diplomado python=3.10 -y
+ 
+conda activate Diplomado
+
+conda install matplotlib ipykernel numpy pandas scipy scikit-learn pillow ipympl statsmodels plotly seaborn -y
+
+pip install -U Pillow
