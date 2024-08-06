@@ -30,3 +30,5 @@ print(f'El valor minimo de f(x) es: {min_f}')
 
 
 
+
+
